@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#3F51B5"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:drawableStart="@drawable/googleg_standard_color_18"
+        android:drawablePadding="20dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Signin with Google"
+        android:textAllCaps="false" />
+</RelativeLayout>
